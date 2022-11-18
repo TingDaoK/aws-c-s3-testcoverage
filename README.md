@@ -11,7 +11,7 @@ Used gcov and [gcovr](https://gcovr.com/en/stable/) to create the HTML page.
 - build your cmake project with `"CMAKE_C_FLAGS": "-fprofile-arcs -ftest-coverage"`
 - in your build folder, run `ctest`
 - after tests finish, run `ctest -T coverage`
-- The *.gcovr files will be in your build/Testing/CoverageInfo/ folder
+- The *.gcov files will be in your build/Testing/CoverageInfo/ folder
 
 ## Generate visualized HTML page:
 
